@@ -217,6 +217,10 @@ function replaceText(v)
         /\b(?:precarious generation)|(?:generation precarious)\b/g,
         "gargouille"
     );
+    v = v.replace(
+        /\b(?:(?:Donald )Trump)\b/g,
+        "Steaming Pile of Garbage"
+    );
 
     return v;
 }
